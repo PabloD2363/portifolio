@@ -1,5 +1,5 @@
 (function () {
-    const SELETORES = [".skill-item img", ".social-icon img"];
+    const SELETORES = [".skill-item img", ".social-icon img", ".avatar-img"];
     const LIMIAR_BRANCO = 235;
 
     function removerFundoBranco(img) {
