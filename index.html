@@ -3,25 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Pablo // Portfolio</title>
+    <link rel="stylesheet" href="script.js">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="js/remove-fundo-branco.js"></script>
 </head>
 <body>
-<div id="'inteface"> 
+
     <header id="cabecalho">
-        <h1>Seja muito bem vindo</h1>
+        <div class="logo">
+            <span class="prompt">root@pablo</span><span class="colon">:</span><span class="path">~$</span>
+            <span class="cursor">_</span>
+        </div>
+
         <nav id="menu">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a herf="#">Github</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">Github</a></li>
             </ul>
-        <h2>Olá,eu sou Pablo</h2>
-        <p>Estudante de Análise e Desenvolvimento de Sistemas e estagiário de TE/TI apaixonado por resolver problemas com lógica e código.</p>
-        <a href="#contact" class="btn">Download CV</a>
+        </nav>
     </header>
-</div>
+
+    <main>
+
+        <section id="home" class="hero-section">
+            <div class="hero-avatar">
+                <img src="imagens_/eupixelado.jpg" alt="Avatar pixel art de Pablo" class="avatar-img">
+            </div>
+
+            <h1 class="welcome-title">Seja bem-vindo</h1>
+            <p class="welcome-subtitle">Eu sou o Pablo</p>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="imagens_/icone-html.png" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <img src="imagens_/icone-css.png" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <img src="imagens_/icone-javascript2.jpg" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <img src="imagens_/icone-pyhton.jpg" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <img src="imagens_/icone-google.jpg" alt="Google Workspace">
+                    <span>Google Workspace</span>
+                </div>
+                <div class="skill-item">
+                    <img src="imagens_/icone-git.png" alt="git">
+                    <span>Git</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="curriculo" class="cv-section">
+            <a href="liks_/CURRÍCULO.pdf" download class="btn btn-cv">Baixar Currículo
+                <img src="imagens_/logo-curriculo.png" alt="currículo">
+            </a>
+        </section>
+
+    </main>
+
+    <footer id="rodape">
+    <div class="social-links">
+        <a href="https://www.instagram.com/pabloo.zo/" target="_blank" rel="noopener" class="social-icon">
+            <img src="imagens_/logo-insta.jpg" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/pablo-dias-de-oliveira-541311244" target="_blank" rel="noopener" class="social-icon">
+            <img src="imagens_/logo-linkdin.png" alt="LinkedIn">
+        </a>
+        </a>
+    </div>
+    <p>© 2026 Pablo</p>
+</footer>
+
 </body>
 </html>
